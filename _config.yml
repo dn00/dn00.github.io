@@ -8,6 +8,8 @@ nav:
     # speaking: "/speaking"
     projects: "/projects"
     # photos: "/photos"
+    resume: "/resume"
+
   # writing:
   #   all: "/writing"
   #   popular: "/writing/popular"
