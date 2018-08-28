@@ -17,7 +17,7 @@
     <p class="left-align">{{ include.project.description | markdownify }}</p>
 
     {% for image in include.project.images %}
-    <img src="/assets/img/projects/{{include.project.name | downcase | replace:' ','-' }}/{{image.image}}" class="thumbnail" height="100" /> 
+    <img src="/assets/img/projects/{{include.project.name | downcase | replace:' ','-' }}/{{image.image}}" class="thumbnail" /> 
 
     {% endfor %} 
   </div>
