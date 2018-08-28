@@ -28,7 +28,7 @@
   }
   
 .thumbnail:hover {
-    object-fit: fill; /* Do not scale the image */
+    object-fit: contain; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
     height: 40%;
     width: 40%;
