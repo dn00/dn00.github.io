@@ -6,6 +6,6 @@
   url: ""
   logo: "gruntwork-logo.png"
   images:
-    image: "gruntwork-logo.png"
-    image: "gruntwork-logo.png"
-    image: "gruntwork-logo.png"
+    - image: "gruntwork-logo.png"
+    - image: "gruntwork-logo.png"
+    - image: "gruntwork-logo.png"
