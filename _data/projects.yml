@@ -14,10 +14,35 @@
     - Basic OpenGL ES
     - Video and audio manipulation 
 
-  subtitle: "Android Studio – Java"
+  subtitle: "Android Studio | Java"
   url: ""
-  logo: "previe-logo.png"
-  images:
-    - image: "abay-1.jpg"
-    - image: "abay-1.jpg"
-    - image: "abay-1.jpg"
+  # logo: "previe-logo.png"
+  # images:
+  #   - image: "abay-1.jpg"
+  #   - image: "abay-1.jpg"
+  #   - image: "abay-1.jpg"
+
+- name: "Abay"
+subtitle: "Flask Web Framework | Python"
+date: "2016"
+description: |
+    Amazon to eBay Dropshipping Management Solution.
+
+    **Features**
+    - Distributed and scalable price matching from Amazon to eBay via celery tasks and web APIs
+    - Automatic shipping update via email scraping
+    - Scrape Amazon item information and list on eBay with custom templating
+    - Graph for total revenue and profit
+    - eBay Listing management
+    - Automatic purge of unsold items.
+
+    | Branch  | Commit           |
+    | ------- | ---------------- |
+    | master  | 0123456789abcdef |
+    | staging | fedcba9876543210 |
+url: ""
+logo: "abay-logo.png"
+images:
+  - image: "abay-1.jpg"
+  - image: "abay-2.jpg"
+  - image: "abay-3.jpg"
