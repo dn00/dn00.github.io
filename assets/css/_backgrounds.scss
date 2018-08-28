@@ -15,11 +15,3 @@ a.bg-checklist:hover {
   @include gray-overlay-image(0.8, $checklist-screenshot-image-path, 0, 0);
 }
 
-.thumbnail {
-  transition:transform 0.25s ease;
-}
-
-.thumbnail:hover {
-  -webkit-transform:scale(1.5);
-  transform:scale(1.5);
-} 

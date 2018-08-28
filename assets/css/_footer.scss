@@ -21,3 +21,12 @@ body {
   padding-bottom: $footer-vertical-padding;
   width: 100%;
 }
+
+.thumbnail {
+  transition:transform 0.25s ease;
+}
+
+.thumbnail:hover {
+  -webkit-transform:scale(1.5);
+  transform:scale(1.5);
+} 
