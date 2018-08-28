@@ -19,3 +19,11 @@
 @import "custom-sizes";
 @import "backgrounds";
 
+img {
+    transition:transform 0.25s ease;
+  }
+  
+img {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+  } 
