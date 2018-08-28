@@ -23,7 +23,7 @@
     transition:transform 0.25s ease;
   }
   
-.thumbnail:focus {
+.thumbnail:hover {
     -webkit-transform:scale(3.0);
     transform:scale(3.0);
   } 
