@@ -50,18 +50,18 @@
     - image: "abay-2.jpg"
     - image: "abay-3.jpg"
 
-# - name: "dexCube"
-#   date: "2015"
-#   description: |
-#     An Android game inspired by dEXTRIS, an iOS exclusive. Move the cubes left or right or split them with your thumbs to dodge fast incoming obstacles. dexCube is a fast pace, twitch based game perfect for anyone looking for a short burst of fun and is up to the challenge. Easy to play, but hard to master. It’s a great time killer once you get the hang of it!   
+- name: "dexCube"
+  date: "2015"
+  description: |
+    An Android game inspired by dEXTRIS, an iOS exclusive. Move the cubes left or right or split them with your thumbs to dodge fast incoming obstacles. dexCube is a fast pace, twitch based game perfect for anyone looking for a short burst of fun and is up to the challenge. Easy to play, but hard to master. It’s a great time killer once you get the hang of it!   
   
-#     I removed the game from Google Play due to bugs caused by the deprecated glowing effect library.
+    I removed the game from Google Play due to bugs caused by the deprecated glowing effect library.
     
+    [Video demo by a fan](https://www.youtube.com/watch?v=7c78BpZCs8g)
 
-#   subtitle: "Unity | C#"
-#   url: ""
-#   # logo: "previe-logo.png"
-#   # images:
-#   #   - image: "abay-1.jpg"
-#   #   - image: "abay-1.jpg"
-#   #   - image: "abay-1.jpg"
+  subtitle: "Unity | C#"
+  url: ""
+  logo: "dexcube-logo.gif"
+  images:
+    - image: "dexcube-1.jpg"
+    - image: "dexcube-2.jpg"
