@@ -3,7 +3,7 @@
   description: |+
     Android Camera app with pre-recording functionality. The camera starts “pre-cording” video and audio into a memory buffer as soon as the app is launched. When the user taps the shutter button, the pre-recorded segment of video/audio is prepended into the current recording segment. The user is able to point and record indefinitely without wasting storage space until they decide to save the video. The main focus of this app is to give users a new convenience in video recording.
     
-    test
+    - test
   subtitle: "Android Studio – Java"
   url: ""
   logo: "gruntwork-logo.png"
