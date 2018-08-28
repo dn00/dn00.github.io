@@ -20,6 +20,10 @@
 @import "backgrounds";
 
 .thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     transition:transform 0.25s ease;
   }
   
