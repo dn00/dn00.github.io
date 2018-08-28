@@ -36,13 +36,37 @@ description: |
     - eBay Listing management
     - Automatic purge of unsold items.
 
-    | Branch  | Commit           |
-    | ------- | ---------------- |
-    | master  | 0123456789abcdef |
-    | staging | fedcba9876543210 |
+    -| Branch  | Commit           |
+    -| ------- | ---------------- |
+    -| master  | 0123456789abcdef |
+    -| staging | fedcba9876543210 |
 url: ""
 logo: "abay-logo.png"
 images:
   - image: "abay-1.jpg"
   - image: "abay-2.jpg"
   - image: "abay-3.jpg"
+
+- name: "dexCube"
+  date: "2017"
+  description: |
+    Android Camera app with pre-recording functionality. The camera starts “pre-cording” video and audio into a memory buffer as soon as the app is launched. When the user taps the shutter button, the pre-recorded segment of video/audio is prepended into the current recording segment. The user is able to point and record indefinitely without wasting storage space until they decide to save the video. The main focus of this app is to give users a new convenience in video recording.
+    
+    **Example use cases**
+    - Funny pet moments that might be missed with a normal video camera app
+    - Sport play highlights
+    - Baby's first moments
+    - Friend doing a trick that requires multiple tries
+    
+    **Knowledge gained**
+    - Advanced Android app development
+    - Basic OpenGL ES
+    - Video and audio manipulation 
+
+  subtitle: "Android Studio | Java"
+  url: ""
+  # logo: "previe-logo.png"
+  # images:
+  #   - image: "abay-1.jpg"
+  #   - image: "abay-1.jpg"
+  #   - image: "abay-1.jpg"
