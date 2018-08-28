@@ -23,9 +23,9 @@
   #   - image: "abay-1.jpg"
 
 - name: "Abay"
-subtitle: "Flask Web Framework | Python"
-date: "2016"
-description: |
+  subtitle: "Flask Web Framework | Python"
+  date: "2016"
+  description: |
     Amazon to eBay Dropshipping Management Solution.
 
     **Features**
@@ -40,8 +40,8 @@ description: |
     # -| ------- | ---------------- |
     # -| master  | 0123456789abcdef |
     # -| staging | fedcba9876543210 |
-url: ""
-logo: "abay-logo.png"
+  url: ""
+  logo: "abay-logo.png"
 images:
   - image: "abay-1.jpg"
   - image: "abay-2.jpg"
