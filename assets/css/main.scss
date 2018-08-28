@@ -20,11 +20,15 @@
 @import "backgrounds";
 
 .thumbnail {
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
     height: 100px;
+    width: 100px;
     transition:transform 0.25s ease;
   }
   
 .thumbnail:hover {
+    
     -webkit-transform:scale(4.0);
     transform:scale(4.0);
   } 
