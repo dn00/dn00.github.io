@@ -19,23 +19,6 @@
 @import "custom-sizes";
 @import "backgrounds";
 
-// .thumbnail {
-//     object-fit: cover; /* Do not scale the image */
-//     object-position: center; /* Center the image within the element */
-//     height: 100px;
-//     width: 100px;
-//     transition:transform 0.25s ease;
-//   }
-  
-// .thumbnail:hover {
-//     object-fit: fill; /* Do not scale the image */
-//     object-position: center; /* Center the image within the element */
-//     height: 100%;
-//     width: 100%;
-//     -webkit-transform:scale(4.0);
-//     transform:scale(4.0);
-//   } 
-
 /* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;
