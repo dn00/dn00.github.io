@@ -35,17 +35,17 @@
     - eBay Listing management
     - Automatic purge of unsold items.
 
-    # -| Branch  | Commit           |
-    # -| ------- | ---------------- |
-    # -| master  | 0123456789abcdef |
-    # -| staging | fedcba9876543210 |
+      | Branch  | Commit           |
+      | ------- | ---------------- |
+      | master  | 0123456789abcdef |
+      | staging | fedcba9876543210 |
   subtitle: "Flask Web Framework | Python"
   url: ""
   logo: "abay-logo.png"
-# images:
-#   - image: "abay-1.jpg"
-#   - image: "abay-2.jpg"
-#   - image: "abay-3.jpg"
+  images:
+    - image: "abay-1.jpg"
+    - image: "abay-2.jpg"
+    - image: "abay-3.jpg"
 
 # - name: "dexCube"
 #   date: "2015"
