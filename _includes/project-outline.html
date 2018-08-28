@@ -15,9 +15,10 @@
     <div class="block h6 mb2">{{ include.project.subtitle }}</div>
 
     <p class="left-align">{{ include.project.description }}</p>
+    {% capture screenshots_path %}projects/{{ include.project.name }}{% endcapture %}
+
     {% for image in include.project.images %}
-    <img src=" {% capture image_path %}projects/{{ include.project.name }}/{{image.image}}{% endcapture %}
-    " class="thumbnail" height="100" width="100" /> 
+    <img src="{{screenshots_path}}/image.image" class="thumbnail" height="100" width="100" /> 
     {% endfor %}
   </div>
 </div>
