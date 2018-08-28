@@ -30,6 +30,9 @@
 .thumbnail:hover {
     object-fit: contain; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     // height: 40%;
     // width: 40%;
     -webkit-transform:scale(4.0);
