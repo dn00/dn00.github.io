@@ -3,13 +3,7 @@
 - name: "Previe (Current Project – Android Studio – Java)"
   date: "2017 - "
   description: |
-Android Camera app with pre-recording functionality. The camera starts “pre-cording” video and audio into a memory buffer as soon as the app is launched. When the user taps the shutter button, the pre-recorded segment of video/audio is prepended into the current recording segment. The user is able to point and record indefinitely without wasting storage space until they decide to save the video. The main focus of this app is to give users a new convenience in video recording.
-  Example use cases:
-Funny pet moments that might be missed with a normal video camera app
-Sport play highlights
-Baby’s first moments
-Friend doing a trick that requires multiple tries.
-Any situation where a user senses something interesting is bound to happen, but might not know when.
+Android Camera app with pre-recording functionality. The camera starts “pre-cording” video and audio into a memory buffer as soon as the app is launched. When the user taps the shutter button, the pre-recorded segment of video/audio is prepended into the current recording segment. The user is able to point and record indefinitely without wasting storage space until they decide to save the video. The main focus of this app is to give users a new convenience in video recording.3
   url: "https://www.gruntwork.io"
   image: "gruntwork-logo.png"
 # - name: "Gruntwork"
