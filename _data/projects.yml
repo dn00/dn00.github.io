@@ -35,10 +35,13 @@
     - eBay Listing management
     - Automatic purge of unsold items.
 
-      | Branch  | Commit           |
-      | ------- | ---------------- |
-      | master  | 0123456789abcdef |
-      | staging | fedcba9876543210 |
+      | Technologies  | Languages Used | Systems |
+      | ------- | ---------------- | ------------|
+      | Flask Web Framework  | Python | Linux    |
+      | Bootstrap | Jinja2 | NGINX               |
+      | PySQL | HTML/CSS/XML/JSON | Gunicorn     |
+      | SQLAlchemy | JQuery       |              |
+      | Amazon & eBay Web API | Javascript |     |
   subtitle: "Flask Web Framework | Python"
   url: ""
   logo: "abay-logo.png"
