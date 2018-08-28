@@ -5,4 +5,7 @@
   subtitle: "Android Studio – Java"
   url: ""
   logo: "gruntwork-logo.png"
-  image: "gruntwork-logo.png"
+  images:
+    image: "gruntwork-logo.png"
+    image: "gruntwork-logo.png"
+    image: "gruntwork-logo.png"
