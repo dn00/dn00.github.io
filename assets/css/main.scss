@@ -20,11 +20,11 @@
 @import "backgrounds";
 
 
-.thumbnail {
+thumbnail {
     transition:transform 0.25s ease;
 }
 
-.thumbnail:hover {
+thumbnail:hover {
     -webkit-transform:scale(1.5);
     transform:scale(1.5);
 } 
