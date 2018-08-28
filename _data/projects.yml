@@ -50,6 +50,17 @@
     - image: "abay-2.jpg"
     - image: "abay-3.jpg"
 
+- name: "camera-video-head"
+  date: "2015"
+  description: |
+    Android app for Facebook-like chat head with camera preview. I modified and combined two open source Android projects for this concept app. While very convenient for users, current average phones aren’t fast enough to handle video recording with concurrent background task switching/loading. Final video loses frame rate with normal user activity while recording. The performance hit is less noticeable on high-end phones. This might be something to add to my Previe project for more user convenience in the future.
+
+  subtitle: "Concept project | Java"
+  url: ""
+  logo: ""
+  images:
+    - image: "camhead-1.jpg"
+
 - name: "dexCube"
   date: "2015"
   description: |
