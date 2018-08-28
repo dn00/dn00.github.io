@@ -16,7 +16,7 @@
 
   subtitle: "Android Studio | Java"
   url: ""
-  # logo: "previe-logo.png"
+  logo: "logo.png"
   # images:
   #   - image: "abay-1.jpg"
   #   - image: "abay-1.jpg"
@@ -57,7 +57,7 @@
 
   subtitle: "Concept project | Java"
   url: ""
-  logo: ""
+  logo: "logo.png"
   images:
     - image: "camhead-1.png"
 
@@ -84,7 +84,7 @@
     Info to be added
   subtitle: "Unity | C#"
   url: ""
-  logo: ""
+  logo: "logo.png"
   # images:
   #   - image: "dexcube-1.jpg"
   #   - image: "dexcube-2.jpg"
