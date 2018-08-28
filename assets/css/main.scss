@@ -19,11 +19,11 @@
 @import "custom-sizes";
 @import "backgrounds";
 
-.thumbnail:hover {
+.thumbnail:active {
     position:relative;
     top:-25px;
     left:-35px;
-    width:500px;
+    width:00px;
     height:auto;
     display:block;
     z-index:999;
