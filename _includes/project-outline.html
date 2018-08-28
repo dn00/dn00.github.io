@@ -16,7 +16,7 @@
 
     <p class="left-align">{{ include.project.description }}</p>
     {% for image in include.project.images %}
-    <p>{{image.image}}</p>
+    <img src="{{image.image}}" class="thumbnail" height="100" width="100" /> 
     {% endfor %}
   </div>
 </div>
