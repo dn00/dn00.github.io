@@ -5,7 +5,11 @@
       
       {% capture image_path %}projects/{{ include.project.logo }}{% endcapture %}
       {% include image.html path=image_path alt=include.project.name %}
-    </a>
+    <!-- </a> -->
+    {% for image in include.project.images %}
+    <img src="/assets/img/projects/{{include.project.name | downcase}}/{{image.image}}" class="thumbnail" height="100" /> 
+
+    {% endfor %} 
   </div>
   <div class="col sm-col-8 px2">
     <!-- <a href="{{ include.project.url }}" target="_blank" name="{{ include.project.name | downcase | replace:' ','-' | remove:',' }}"><{{ project_title_element }} class="mt0 mb0">{{ include.project.name }}</{{ project_title_element }}></a> -->
@@ -16,9 +20,6 @@
 
     <p class="left-align">{{ include.project.description | markdownify }}</p>
 
-    {% for image in include.project.images %}
-    <img src="/assets/img/projects/{{include.project.name | downcase}}/{{image.image}}" class="thumbnail" height="100" /> 
 
-    {% endfor %} 
   </div>
 </div>
