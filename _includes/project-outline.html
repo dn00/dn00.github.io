@@ -2,8 +2,7 @@
 <div class="mxn2 clearfix mb2 py3{% unless include.exclude_divider %} border-bottom border-light-gray circle-line {% endunless %}">
   <div class="col sm-col-4 px2 mb2">
     <!-- <a href="{{ include.project.url }}" target="_blank"> -->
-        <p>{{ include.project.url }}</p>
-
+      
       {% capture image_path %}projects/{{ include.project.image }}{% endcapture %}
       {% include image.html path=image_path alt=include.project.name %}
     </a>
