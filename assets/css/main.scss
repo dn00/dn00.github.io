@@ -19,12 +19,11 @@
 @import "custom-sizes";
 @import "backgrounds";
 
-.thumbnail:active {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:00px;
-    height:auto;
-    display:block;
-    z-index:999;
+.thumbnail {
+    transition:transform 0.25s ease;
+}
+
+.thumbnail:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
 }
