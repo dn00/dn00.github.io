@@ -50,16 +50,16 @@
     object-position: center; /* Center the image within the element */
     height: 100px;
     width: 100px;
-    transition: all 0.25s ease-in-out;
+    // transition: all 0.25s ease-in-out;
     // -webkit-transition: width 1s, height 1s;
     // transition: width 1s, height 1s;
 }
-.thumbnail:hover {
-    object-fit: fill; /* Do not scale the image */
-    height: 40%;
-    width: 40%;
-    -webkit-transform:scale(4.0);
-    transform: translate(0px,-50px);
-    -webkit-transform:translate(0px,-50px);
-    transform:scale(4.0);
-}
+// .thumbnail:hover {
+//     object-fit: fill; /* Do not scale the image */
+//     height: 40%;
+//     width: 40%;
+//     -webkit-transform:scale(4.0);
+//     transform: translate(0px,-50px);
+//     -webkit-transform:translate(0px,-50px);
+//     transform:scale(4.0);
+// }
