@@ -4,8 +4,8 @@ title: "Dennis Nguyen: Projects"
 header_title: Projects
 include_header: projects_header.html
 nav_item: projects
-<!-- extra_scripts:
-  - /assets/js/img_modal.js -->
+extra_scripts:
+  - /assets/js/img_modal.js
 ---
 
 {% for project in site.data.projects %}
@@ -25,14 +25,3 @@ nav_item: projects
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-
-<script>
-    $(window).load(function(){
-    $('img').on('click',function()
-                {
-                    var sr=$(this).attr('src'); 
-                    $('#mimg').attr('src',sr);
-                    $('#myModal').modal('show');
-                });
-    });
-  </script>
