@@ -10,7 +10,7 @@ img[i].addEventListener('click',function(){
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
-    if (modalImg.width() > modalImg.height()){
+    if (modalImg.naturalHeight > modalImg.naturalWidth{
         //it's a landscape
         modalImg.style.maxWidth = "1000px";
     }
