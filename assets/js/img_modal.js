@@ -10,18 +10,21 @@ img[i].addEventListener('click',function(){
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
-    if (img[i].width() > img[i].height()){
+    if (modalImg.width() > modalImg.height()){
         //it's a landscape
         modalImg.style.maxWidth = "1000px";
     }
-    alert("Hello\nHow are you?");
 })
 }
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+// var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+// span.onclick = function() {
+//     modal.style.display = "none";
+// }
+
+modal.onclick = function() {
     modal.style.display = "none";
 }
