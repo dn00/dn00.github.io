@@ -8,9 +8,9 @@ var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 if (img[i].width() > img[i].height()){
     //it's a landscape
-    modalImg.style.maxWidth = "1000px";
-    alert(document.modalImg.style.maxWidth);
+    img[i].id = "landscape";
 }
+
 img[i].addEventListener('click',function(){
     modal.style.display = "block";
     modalImg.src = this.src;
