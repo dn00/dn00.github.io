@@ -16,35 +16,13 @@
 
     <p class="left-align">{{ include.project.description | markdownify }}</p>
 
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-            </div>
-          <div class="modal-body">
-            <img id="mimg" src="">
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-    
-    <script>
-      $(window).load(function(){
-      $('img').on('click',function()
-                  {
-                      var sr=$(this).attr('src'); 
-                      $('#mimg').attr('src',sr);
-                      $('#myModal').modal('show');
-                  });
-      });
-    </script>
+  
     {% for image in include.project.images %}
     <!-- <img src="/assets/img/projects/{{include.project.name | downcase | replace:' ','-' }}/{{image.image}}" class="thumbnail" />  -->
     <!-- Trigger the Modal -->
     <img class="thumbnail" src="/assets/img/projects/{{include.project.name | downcase | replace:' ','-' }}/{{image.image}}">
 
     {% endfor %} 
+
   </div>
 </div>
