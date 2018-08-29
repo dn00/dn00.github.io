@@ -20,22 +20,17 @@
     {% for image in include.project.images %}
     <!-- <img src="/assets/img/projects/{{include.project.name | downcase | replace:' ','-' }}/{{image.image}}" class="thumbnail" />  -->
     <!-- Trigger the Modal -->
-    <img id="myImg" src="/assets/img/projects/{{include.project.name | downcase | replace:' ','-' }}/{{image.image}}">
+    <img class="modal_image" src="/assets/img/projects/{{include.project.name | downcase | replace:' ','-' }}/{{image.image}}">
 
     {% endfor %} 
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">×</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+
+
 
   </div>
-</div>
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
 </div>
