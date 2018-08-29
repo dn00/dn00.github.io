@@ -6,16 +6,15 @@ var img = document.getElementsByClassName('modal_image');
 for(var i=0; i<img.length; i++){
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
-if (img[i].width() > img[i].height()){
-    //it's a landscape
-    img[i].id = "landscape";
-}
-
 img[i].addEventListener('click',function(){
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
-  
+    if (img[i].width() > img[i].height()){
+        //it's a landscape
+        modalImg.style.maxWidth = "1000px";
+    }
+    alert("Hello\nHow are you?");
 })
 }
 
