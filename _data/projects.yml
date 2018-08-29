@@ -7,14 +7,14 @@
     - Funny pet moments that might be missed with a normal video camera app
     - Sport play highlights
     - Baby's first moments
-    - Friend doing a trick that requires multiple tries
+    - Friend doing a trick that requires multiple attempts
     
     **Knowledge gained**
     - Advanced Android app development
     - Basic OpenGL ES
     - Video and audio manipulation 
 
-  subtitle: "Android Studio | Java"
+  subtitle: "Android | Java"
   url: ""
   logo: "logo.png"
   # images:
@@ -53,9 +53,9 @@
 - name: "camera-video-head"
   date: "2015"
   description: |
-    Android app for Facebook-like chat head with camera preview. I modified and combined two open source Android projects for this concept app. While very convenient for users, current average phones aren’t fast enough to handle video recording with concurrent background task switching/loading. Final video loses frame rate with normal user activity while recording. The performance hit is less noticeable on high-end phones. This might be something to add to my Previe project for more user convenience in the future.
+    Android app for Facebook-like "chat head" with camera preview. Built with open sourced softwares. While very convenient for users, current average phones aren’t fast enough to handle video recording with concurrent background task switching/loading. Final video loses frame rate with normal user activity while recording. The performance hit is less noticeable on high-end phones. Potentially a feature to add to the Previe project in the future.
 
-  subtitle: "Concept project | Java"
+  subtitle: "Concept project| Android | Java"
   url: ""
   logo: "logo.png"
   images:
@@ -64,13 +64,13 @@
 - name: "dexCube"
   date: "2015"
   description: |
-    An Android game inspired by dEXTRIS, an iOS exclusive. Move the cubes left or right or split them with your thumbs to dodge fast incoming obstacles. dexCube is a fast pace, twitch based game perfect for anyone looking for a short burst of fun and is up to the challenge. Easy to play, but hard to master. It’s a great time killer once you get the hang of it!   
+    An Android game inspired by dEXTRIS, an iOS exclusive. Move the cubes left or right or split them with your thumbs to dodge fast incoming obstacles. dexCube is a fast pace, twitch based game perfect for short bursts of fun. Easy to play, but hard to master.  
   
     I removed the game from Google Play due to bugs caused by the deprecated glowing effect library.
     
     [Video demo by a fan](https://www.youtube.com/watch?v=7c78BpZCs8g)
 
-  subtitle: "Unity | C#"
+  subtitle: "Unity Game Engine | C#"
   url: ""
   logo: "dexcube-logo.gif"
   images:
@@ -82,7 +82,7 @@
   date: "2016"
   description: |
     Info to be added
-  subtitle: "Unity | C#"
+  subtitle: "Unity Game Engine | C#"
   url: ""
   logo: "logo.png"
   # images:
