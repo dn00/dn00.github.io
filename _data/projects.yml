@@ -6,8 +6,8 @@
     **Example use cases**
     - Funny pet moments that might be missed with a normal video camera app
     - Sport play highlights
-    - Baby's first moments
-    - Friend doing a trick that requires multiple attempts
+    - A baby's first moments
+    - A Friend doing a trick that requires multiple attempts
     
     **Knowledge gained**
     - Advanced Android app development
@@ -33,15 +33,15 @@
     - Scrape Amazon item information and list on eBay with custom templating
     - Graph for total revenue and profit
     - eBay Listing management
-    - Automatic purge of unsold items.
+    - Automatic purge of unsold items
 
-      | Technologies  | Languages Used | Systems |
-      | ------- | ---------------- | ------------|
-      | Flask Web Framework  | Python | Linux    |
-      | Bootstrap | Jinja2 | NGINX               |
-      | PySQL | HTML/CSS/XML/JSON | Gunicorn     |
-      | SQLAlchemy | JQuery       |              |
-      | Amazon & eBay Web API | Javascript |     |
+    | Technologies  | Languages Used | Systems |
+    | ------- | ---------------- | ------------|
+    | Flask Web Framework  | Python | Linux    |
+    | Bootstrap | Jinja2 | NGINX               |
+    | PySQL | HTML/CSS/XML/JSON | Gunicorn     |
+    | SQLAlchemy | JQuery       |              |
+    | Amazon & eBay Web API | Javascript |     |
   subtitle: "Flask Web Framework | Python"
   url: ""
   logo: "abay-logo.png"
@@ -53,7 +53,9 @@
 - name: "camera-video-head"
   date: "2015"
   description: |
-    Android app for Facebook-like "chat head" with camera preview. Built with open sourced softwares. While very convenient for users, current average phones aren’t fast enough to handle video recording with concurrent background task switching/loading. Final video loses frame rate with normal user activity while recording. The performance hit is less noticeable on high-end phones. Potentially a feature to add to the Previe project in the future.
+    Android app for Facebook-like "chat head" with camera preview. Built with open sourced softwares. 
+    
+    While very convenient for users, current average phones aren’t fast enough to handle video recording with concurrent background task switching/loading. Final video loses frame rate with normal user activity while recording. The performance hit is less noticeable on high-end phones. Potentially a feature to add to the Previe project in the future.
 
   subtitle: "Concept project| Android | Java"
   url: ""
