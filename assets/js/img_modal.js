@@ -4,17 +4,13 @@ var modal = document.getElementById('myModal');
 // Get the image and insert it inside the modal - use its "alt" text as a cap
 var img = document.getElementsByClassName('modal_image');
 for(var i=0; i<img.length; i++){
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img[i].addEventListener('click',function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-    if (modalImg.naturalHeight > modalImg.naturalWidth) {
-        //it's a landscape
-        modalImg.style.maxWidth = "1000px";
-    }
-})
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img[i].addEventListener('click',function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    })
 }
 
 // Get the <span> element that closes the modal
