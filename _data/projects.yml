@@ -17,9 +17,9 @@
   subtitle: "Android | Java"
   url: ""
   logo: "logo.png"
-  # images:
-  #   - image: "abay-1.jpg"
-  #   - image: "abay-1.jpg"
+  images:
+    - image: "previe-1.png"
+    - image: "previe-1.png"
   #   - image: "abay-1.jpg"
 
 - name: "Abay"
