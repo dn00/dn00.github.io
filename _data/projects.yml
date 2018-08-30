@@ -4,10 +4,10 @@
     Android Camera app with pre-recording functionality. The camera starts “pre-cording” video and audio into a memory buffer as soon as the app is launched. When the user taps the shutter button, the pre-recorded segment of video/audio is prepended into the current recording segment. The user is able to point and record indefinitely without wasting storage space until they decide to save the video. The main focus of this app is to give users a new convenience in video recording.
     
     **Example use cases**
-    - Funny pet moments that might be missed with a normal video camera app
+    - Funny pet moments
     - Sport play highlights
     - A baby's first moments
-    - A Friend doing a trick that requires multiple attempts
+    - A friend doing a trick that requires multiple attempts
     
     **Knowledge gained**
     - Advanced Android app development
@@ -34,7 +34,7 @@
     - Automatic shipping update via email scraping
     - Scrape Amazon item information and list on eBay with custom templating
     - Graph for total revenue and profit
-    - eBay Listing management
+    - eBay listing management
     - Automatic purge of unsold items
 
     [[Github]](https://github.com/dn00/AmaBay)
@@ -78,7 +78,7 @@
   description: |
     An Android game inspired by dEXTRIS, an iOS exclusive. Move the cubes left or right or split them with your thumbs to dodge fast incoming obstacles. dexCube is a fast pace, twitch based game perfect for short bursts of fun. Easy to play, but hard to master.  
   
-    I removed the game from Google Play due to bugs caused by the deprecated glowing effect library.
+    *Game is currently removed from Google Play due to bugs caused by the deprecated glowing effect library.*
     
     [Video demo by a fan](https://www.youtube.com/watch?v=7c78BpZCs8g)
 
