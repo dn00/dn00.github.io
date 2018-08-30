@@ -19,10 +19,10 @@
     {% for image in include.project.images %}
     <!-- <img src="/assets/img/projects/{{include.project.name | downcase | replace:' ','-' }}/{{image.image}}" class="thumbnail" />  -->
     <!-- Trigger the Modal -->
-    <img class="modal_image" src="/assets/img/projects/{{include.project.name | downcase | replace:' ','-' }}/{{image.image}}">
+    <img class="modal_image lazyload" src="/assets/img/projects/{{include.project.name | downcase | replace:' ','-' }}/{{image.image}}">
 
     {% endfor %} 
-
+    
     <!-- The Modal -->
     <div id="myModal" class="modal">
       <span class="close">×</span>
