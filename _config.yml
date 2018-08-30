@@ -35,10 +35,10 @@ contact_urls:
   #   label: "Twitter"
   #   icon: "twitter-square"
   #   username: "@brikis98"
-  # linkedin:
-  #   url: "https://www.linkedin.com/in/jbrikman"
-  #   label: "LinkedIn"
-  #   icon: "linkedin-square"
+  linkedin:
+    url: "https://www.linkedin.com/in/dn00"
+    label: "LinkedIn"
+    icon: "linkedin-square"
   # facebook:
   #   url: "https://www.facebook.com/dtn00"
   #   label: "Facebook"
