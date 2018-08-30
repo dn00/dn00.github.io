@@ -45,7 +45,7 @@
     | SQLAlchemy | JQuery       | Google Cloud Engine |
     | Amazon & eBay Web API | Javascript |     |
 
-    
+
     [[Github]](https://github.com/dn00/AmaBay)
 
   subtitle: "Flask Web Framework | Python"
@@ -59,7 +59,7 @@
 - name: "camera-video-head"
   date: "2015"
   description: |
-    Android app for Facebook-like "chat head" with camera preview. Built with open sourced softwares. 
+    Android app for Facebook-like "chat head" with camera preview.
     
     While very convenient for users, current average phones aren’t fast enough to handle video recording with concurrent background task switching/loading. Final video loses frame rate with normal user activity while recording. The performance hit is less noticeable on high-end phones. Potentially a feature to add to the Previe project in the future.
 
