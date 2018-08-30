@@ -37,6 +37,9 @@
     - eBay Listing management
     - Automatic purge of unsold items
 
+      [[Github]](https://github.com/dn00/AmaBay)
+
+
     | Technologies  | Languages Used | Systems |
     | ------- | ---------------- | ------------|
     | Flask Web Framework  | Python | Linux    |
@@ -46,7 +49,6 @@
     | Amazon & eBay Web API | Javascript |     |
 
 
-    [[Github]](https://github.com/dn00/AmaBay)
 
   subtitle: "Flask Web Framework | Python"
   url: ""
