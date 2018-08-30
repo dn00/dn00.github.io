@@ -87,8 +87,8 @@
   subtitle: "Unity Game Engine | C#"
   url: ""
   logo: "logo.png"
-  # images:
-  #   - image: "dexcube-1.jpg"
-  #   - image: "dexcube-2.jpg"
+  images:
+    - image: "cof-1.png"
+    - image: "cof-2.png"
 
     
