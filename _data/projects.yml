@@ -61,7 +61,7 @@
   description: |
     Android app for Facebook-like "chat head" with camera preview.
     
-    While very convenient for users, current average devices aren’t fast enough to handle video/audio recording with concurrent background task switching and loading. Final video loses frame rate with normal user activity while recording. The performance hit is less noticeable on high-end phones. Potentially a feature to add to the Previe project in the future.
+    While very convenient for users, current average devices aren’t fast enough to handle video/audio recording with concurrent background task switching and loading. Final video loses frame rate with normal user activity while recording. The performance hit is less noticeable on high-end phones. Potential feature to add to the Previe project in the future.
 
     [[Github]](https://github.com/dn00/camera-chat-head)
 
