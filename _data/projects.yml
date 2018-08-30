@@ -40,7 +40,7 @@
     | Flask Web Framework  | Python | Linux    |
     | Bootstrap | Jinja2 | NGINX               |
     | PySQL | HTML/CSS/XML/JSON | Gunicorn     |
-    | SQLAlchemy | JQuery       |              |
+    | SQLAlchemy | JQuery       | Google Cloud Engine |
     | Amazon & eBay Web API | Javascript |     |
   subtitle: "Flask Web Framework | Python"
   url: ""
