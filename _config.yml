@@ -56,9 +56,9 @@ contact_urls:
     label: "GitHub"
     icon: "github-square"
   email:
-    url: "mailto:dtnguy90@gmail.com"
+    url: "mailto:dtnguy09@gmail.com"
     label: "Email"
-    value: "dtnguy90@gmail.com"
+    value: "dtnguy09@gmail.com"
     icon: "envelope-square"
 
 # Jekyll build settings
