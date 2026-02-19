@@ -1,12 +1,16 @@
-<div class="center">
-  <a href="{{ site.base_url }}">
-    {% include image.html path=site.thumbnail_path alt=site.name class="border bg-white p1 border-light-gray circle square-100" %}
-  </a>
-  {% include header-h1.html %}
-  <h2 class="page-description body-font gray mt0 h3 regular">
-    Jack of all trades, Master of Googling.
-    <!-- Co-founder of <a href="{{ site.gruntwork_url }}?ref=ybrikman-home-header" target="_blank">Gruntwork</a><br>
-    Author of <em><a href="{{ site.hello_startup_url }}?ref=ybrikman-home" target="_blank">Hello, Startup</a></em> and
-    <em><a href="{{ site.terraform_up_and_running_url }}?ref=ybrikman-home" target="_blank">Terraform: Up & Running</a></em> -->
-  </h2>
+<div class="clearfix mxn2">
+  <div class="col sm-col-9 px2">
+    <h3 class="mb2">About me</h3>
+    <p>
+      Hey, I’m Dennis. I like building and improving systems, especially workflow automation and tools that make day-to-day work faster and more reliable. I’m into anime, cars, and games, and I’m usually tinkering with side projects that mix structure with creativity, like deterministic systems, puzzle and game prototypes, and small tools that shave real time off people’s day. I also like to modify things to make them better, whether that’s software, a workflow, or something mechanical.
+    </p>
+    <p>
+      Check out my <a href="{{ site.nav.main.projects }}">projects</a> to see what I’ve been building.
+    </p>
+  </div>
+
+  <div class="col sm-col-3 px2">
+    <h3 class="mb2">Contact</h3>
+    {% include contact.html %}
+  </div>
 </div>
