@@ -1,23 +1,11 @@
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+# local-only design prototypes (other concept directions; not deployed)
+_prototypes/
 
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
-node_modules
-
-# Jekyll
-_site/
-.sass-cache/
-.jekyll-metadata
-
-# OS X
+# OS / editor cruft
 .DS_Store
 .AppleDouble
 .LSOverride
-
-
-# Vagrant
-.vagrant
-
-# IntelliJ
+*.swp
 *.iml
 .idea
+node_modules

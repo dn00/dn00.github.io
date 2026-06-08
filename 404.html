@@ -1,9 +1,26 @@
----
-title: "404: page not found."
-layout: default
-permalink: /404.html
----
-
-<h1>404</h1>
-
-Page not found.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0c0d10">
+<title>404 — not found</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon/favicon-32x32.png">
+<style>
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+    background:#0c0d10;color:#d6dce6;font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+    background-image:radial-gradient(800px 400px at 70% 0%,rgba(86,182,255,.06),transparent 60%);}
+  .box{padding:1.5rem;max-width:30rem}
+  .pmt{color:#5be39a}.pmt .u{color:#b88bff}
+  .out{color:#6f7a8d;margin:.4rem 0 1rem}
+  a{color:#56b6ff;text-decoration:none}a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+  <div class="box">
+    <div><span class="pmt"><span class="u">dennis</span>@dn00 ~ %</span> cat <span style="color:#d6dce6">$REQUEST</span></div>
+    <div class="out">cat: no such file or directory (404).</div>
+    <div><span class="pmt"><span class="u">dennis</span>@dn00 ~ %</span> <a href="/">cd ~</a></div>
+  </div>
+</body>
+</html>
